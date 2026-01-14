@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Nykaa - Your Beauty, Our Passion</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<header>
+  <h1>NYKAA</h1>
+  <p>Your Beauty, Our Passion</p>
+</header>
+
+<nav class="navbar">
+  <div class="logo">
+    <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=200&q=80" alt="Nykaa Logo">
+  </div>
+
+  <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+  <label for="menu-toggle" class="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <ul class="nav-links">
+    <li class="dropdown">
+      <a href="">Categories</a>
+      <ul class="dropdown-menu">
+        <li><a href="">Makeup</a></li>
+        <li><a href="">Skin Care</a></li>
+        <li><a href="">Hair Care</a></li>
+        <li><a href="">Fragrance</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a href="">Brands</a>
+      <ul class="dropdown-menu">
+        <li><a href="">Lakmé</a></li>
+        <li><a href="">Maybelline</a></li>
+        <li><a href="">L'Oréal</a></li>
+        <li><a href="">Mamaearth</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a href="">Luxe</a>
+      <ul class="dropdown-menu">
+        <li><a href="">MAC</a></li>
+        <li><a href="">Huda Beauty</a></li>
+        <li><a href="">Bobbi Brown</a></li>
+        <li><a href="">Estée Lauder</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Nykaa Fashion</a></li>
+    <li><a href="#">Beauty Advice</a></li>
+  </ul>
+
+  <div class="nav-search">
+    <input type="text" placeholder="Search products..." />
+  </div>
+
+  <div class="login-btn">
+    <a href="login.html">
+      <button>Login</button>
+    </a>
+  </div>
+</nav>
+
+<main>
+  <div class="container">
+    <h3 id="container_title">Popular This Season</h3>
+
+    <div id="explore_title">
+      Explore Beauty Essentials
+    </div>
+
+    <div class="product-grid">
+      <div class="product" id="lipstick">
+        <h3>Lipstick</h3>
+        <p>Long-lasting matte lipstick</p>
+        <p><strong>₹1,599</strong></p>
+      </div>
+
+      <div class="product" id="cream">
+        <h3>Face Cream</h3>
+        <p>Hydrating daily moisturizer</p>
+        <p><strong>₹799</strong></p>
+      </div>
+
+      <div class="product" id="kajal">
+        <h3>Kajal</h3>
+        <p>Smudge-proof all-day wear</p>
+        <p><strong>₹1,299</strong></p>
+      </div>
+
+      <div class="product" id="mascara">
+        <h3>Mascara</h3>
+        <p>Volumizing & lengthening</p>
+        <p><strong>₹1,199</strong></p>
+      </div>
+
+      <div class="product" id="foundation">
+        <h3>Foundation</h3>
+        <p>Flawless matte finish</p>
+        <p><strong>₹2,299</strong></p>
+      </div>
+
+      <div class="product" id="perfume">
+        <h3>Perfume</h3>
+        <p>Long-lasting fragrance</p>
+        <p><strong>₹35,999</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Deals Section -->
+  <section class="deals-section">
+    <div class="deals-container">
+      <h2>💖 Today's Special Deals 💖</h2>
+      <div class="deals-grid">
+        <div class="deal-card">
+          <div class="deal-badge">50% OFF</div>
+          <h3>Skincare Bundle</h3>
+          <p>Complete face care routine</p>
+          <div class="deal-price">₹2,499 <span>₹4,999</span></div>
+        </div>
+        <div class="deal-card">
+          <div class="deal-badge">50% OFF</div>
+          <h3>Makeup Kit</h3>
+          <p>Essential makeup collection</p>
+          <div class="deal-price">₹1,999 <span>₹3,999</span></div>
+        </div>
+        <div class="deal-card">
+          <div class="deal-badge">30% OFF</div>
+          <h3>Hair Care Set</h3>
+          <p>Shampoo + Conditioner + Serum</p>
+          <div class="deal-price">₹4,299 <span>₹4,999</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Brands -->
+  <section class="featured-brands">
+    <h2>Featured <span>Brands</span></h2>
+    <div class="brands-grid">
+      <div class="brand-card">
+        <h3>Lakmé</h3>
+        <p>India's leading beauty brand</p>
+      </div>
+      <div class="brand-card">
+        <h3>Maybelline</h3>
+        <p>New York's makeup expert</p>
+      </div>
+      <div class="brand-card">
+        <h3>L'Oréal Paris</h3>
+        <p>Because you're worth it</p>
+      </div>
+      <div class="brand-card">
+        <h3>MAC</h3>
+        <p>Professional makeup artistry</p>
+      </div>
+      <div class="brand-card">
+        <h3>Huda Beauty</h3>
+        <p>Bold & beautiful makeup</p>
+      </div>
+      <div class="brand-card">
+        <h3>Mamaearth</h3>
+        <p>Natural & toxin-free products</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="chooser">
+    <h2>Need Help Choosing? <span>Start Here!</span></h2>
+
+    <div class="chooser-row">
+      <div class="chooser-card lips">
+        <p>Lips</p>
+        <img src="/fff/lips.png" alt="Lips">
+        <a href="#" class="arrow-btn">→</a>
+      </div>
+
+      <div class="chooser-card lipbalm">
+        <p>Lip Balm</p>
+        <img src="/fff/lipbalm.png" alt="Lip Balm">
+        <a href="#" class="arrow-btn">→</a>
+      </div>
+
+      <div class="chooser-card shampoo">
+        <p>Shampoo</p>
+        <img src="/fff/sampoo.png" alt="Shampoo">
+        <a href="#" class="arrow-btn">→</a>
+      </div>
+
+      <div class="chooser-card facewash">
+        <p>Face Wash</p>
+        <img src="/fff/facewash.png" alt="Face Wash">
+        <a href="#" class="arrow-btn">→</a>
+      </div>
+
+      <div class="chooser-card kajal">
+        <p>Kajal</p>
+        <img src="/fff/kajal.png" alt="Kajal">
+        <a href="#" class="arrow-btn">→</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter">
+    <h2>💌 Join Our Beauty Community</h2>
+    <p>Subscribe to get exclusive deals, beauty tips, and new product launches!</p>
+    <form class="newsletter-form">
+      <input type="email" placeholder="Enter your email address" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h4>About Nykaa</h4>
+      <a href="">Who are we?</a>
+      <a href="">Careers</a>
+      <a href="">Why Nykaa?</a>
+      <a href="">Press & Media</a>
+    </div>
+
+    <div class="footer-section">
+      <h4>Help</h4>
+      <a href="">FAQs</a>
+      <a href="">Shipping & Returns</a>
+      <a href="">Privacy Policy</a>
+      <a href="">Terms & Conditions</a>
+    </div>
+
+    <div class="footer-section">
+      <h4>Categories</h4>
+      <a href="">Makeup</a>
+      <a href="">Skin</a>
+      <a href="">Hair</a>
+      <a href="">Fragrance</a>
+    </div>
+
+    <div class="footer-section">
+      <h4>Contact Us</h4>
+      <a href="mailto:support@nykaa.com">Email: support@nykaa.com</a>
+      <a href="tel:18002674444">Phone: 1800-267-4444</a>
+      <a>Mon-Sat: 9AM - 7PM</a>
+    </div>
+  </div>
+
+  <p class="copyright">
+    © 2025 NYKAA E-RETAIL LIMITED. All Rights Reserved.
+  </p>
+</footer>
+</body>
+</html>
