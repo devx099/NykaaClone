@@ -6,15 +6,15 @@
 
 body{
     font-family: Arial, sans-serif;
-    background-color: #fef5fb;
-    color: #333;
+    background-color: hsl(320, 82%, 98%);
+    color: hsl(0, 0%, 20%);
     line-height: 1.6;
 }
 
 
 
 header{
-    background: linear-gradient(135deg, #fc2779 0%, #ff6b9d 100%);
+    background: linear-gradient(135deg, hsl(337, 97%, 57%) 0%, hsl(340, 100%, 71%) 100%);
     color: white;
     padding: 2rem 1rem;
     text-align: center;
@@ -68,7 +68,7 @@ header p{
 
 .nav-links a{
     text-decoration: none;
-    color: #333;
+    color: hsl(0, 0%, 20%);
     font-weight: 600;
     font-size: 0.95rem;
     padding: 0.5rem 0;
@@ -76,7 +76,7 @@ header p{
 }
 
 .nav-links a:hover{
-    color: #fc2779;
+    color: hsl(337, 97%, 57%);
 }
 
 .dropdown-menu{
@@ -103,7 +103,7 @@ header p{
 }
 
 .dropdown-menu a:hover{
-    background-color: #fef5fb;
+    background-color: hsl(320, 82%, 98%);
 }
 
 .dropdown:hover .dropdown-menu{
@@ -119,16 +119,16 @@ header p{
     padding: 0.7rem 1rem;
     font-size: 0.95rem;
     border-radius: 25px;
-    border: 2px solid #ffc0d9;
+    border: 2px solid hsl(336, 100%, 88%);
     outline: none;
 }
 
 .nav-search input:focus{
-    border-color: #fc2779;
+    border-color: hsl(337, 97%, 57%);
 }
 
 .login-btn button{
-    background: linear-gradient(135deg, #fc2779 0%, #ff6b9d 100%);
+    background: linear-gradient(135deg, hsl(337, 97%, 57%) 0%, hsl(340, 100%, 71%) 100%);
     border: none;
     color: white;
     padding: 0.7rem 2rem;
@@ -159,7 +159,7 @@ header p{
     font-weight: 700;
     text-align: center;
     margin-bottom: 2rem;
-    color: #fc2779;
+    color: hsl(337, 97%, 57%);
     text-transform: uppercase;
 }
 
@@ -232,7 +232,7 @@ header p{
 
 .product strong{
     font-size: 1.5rem;
-    color: #ffc0d9;
+    color: hsl(336, 100%, 88%);
 }
 
 #lipstick{ background: url('https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=800&q=80') center/cover; }
@@ -257,11 +257,11 @@ header p{
     margin-bottom: 2rem;
     font-weight: 700;
     text-align: center;
-    color: #333;
+    color: hsl(0, 0%, 20%);
 }
 
 .featured-brands h2 span{
-    color: #fc2779;
+    color: hsl(337, 97%, 57%);
 }
 
 .brands-grid{
@@ -271,18 +271,18 @@ header p{
 }
 
 .brand-card{
-    background: linear-gradient(135deg, #ffffff 0%, #fef5fb 100%);
+    background: linear-gradient(135deg, hsl(0, 0%, 100%) 0%, hsl(320, 82%, 98%) 100%);
     padding: 2rem;
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 3px 15px rgba(0,0,0,0.08);
     cursor: pointer;
-    border: 2px solid #ffc0d9;
+    border: 2px solid hsl(336, 100%, 88%);
 }
 
 .brand-card h3{
     font-size: 1.5rem;
-    color: #fc2779;
+    color: hsl(337, 97%, 57%);
     margin-bottom: 0.5rem;
 }
 
