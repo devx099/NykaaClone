@@ -138,7 +138,6 @@ header p{
     cursor: pointer;
 }
 
-/* Mobile Menu */
 .menu-toggle{
     display: none;
 }
@@ -147,7 +146,6 @@ header p{
     display: none;
 }
 
-/* Main Container */
 .container{
     max-width: 1400px;
     margin: 0 auto;
@@ -180,7 +178,6 @@ header p{
     font-weight: 700;
 }
 
-/* Product Grid */
 .product-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -287,13 +284,12 @@ header p{
 }
 
 .brand-card p{
-    color: #666;
+    color: hsl(0, 0%, 40%);
     font-size: 0.95rem;
 }
 
-/* Deals Section */
 .deals-section{
-    background: linear-gradient(135deg, #fc2779 0%, #ff6b9d 100%);
+    background: linear-gradient(135deg, hsl(337, 97%, 57%) 0%, hsl(340, 100%, 71%) 100%);
     padding: 3rem 1.5rem;
     margin: 3rem 0;
     color: white;
@@ -319,7 +315,7 @@ header p{
 
 .deal-card{
     background: white;
-    color: #333;
+    color: hsl(0, 0%, 20%);
     padding: 2rem;
     border-radius: 15px;
     text-align: center;
@@ -327,7 +323,7 @@ header p{
 }
 
 .deal-badge{
-    background: #fc2779;
+    background: hsl(337, 97%, 57%);
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 25px;
@@ -340,28 +336,27 @@ header p{
 .deal-card h3{
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
-    color: #fc2779;
+    color: hsl(337, 97%, 57%);
 }
 
 .deal-card p{
-    color: #666;
+    color: hsl(0, 0%, 40%);
     margin-bottom: 1rem;
 }
 
 .deal-price{
     font-size: 2rem;
     font-weight: 700;
-    color: #fc2779;
+    color: hsl(337, 97%, 57%);
 }
 
 .deal-price span{
     font-size: 1rem;
-    color: #999;
+    color: hsl(0, 0%, 60%);
     text-decoration: line-through;
     margin-left: 0.5rem;
 }
 
-/* Chooser Section */
 .chooser{
     padding: 3rem 1.5rem;
     background: white;
@@ -379,7 +374,7 @@ header p{
 }
 
 .chooser h2 span{
-    color: #fc2779;
+    color: hsl(337, 97%, 57%);
 }
 
 .chooser-row{
@@ -404,7 +399,7 @@ header p{
 .chooser-card p{
     font-weight: 700;
     font-size: 1.2rem;
-    color: #333;
+    color: hsl(0, 0%, 20%);
 }
 
 .chooser-card img{
@@ -417,7 +412,7 @@ header p{
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    border: 2px solid #333;
+    border: 2px solid hsl(0, 0%, 20%);
     background: white;
     cursor: pointer;
     font-size: 1.5rem;
@@ -425,7 +420,7 @@ header p{
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: #333;
+    color: hsl(0, 0%, 20%);
 }
 
 .lips { background: linear-gradient(135deg, #ffe0ed 0%, #ffc0d9 100%); }
@@ -434,9 +429,8 @@ header p{
 .facewash { background: linear-gradient(135deg, #f1f8e9 0%, #dcedc8 100%); }
 .kajal { background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%); }
 
-/* Newsletter */
 .newsletter{
-    background: linear-gradient(135deg, #fef5fb 0%, #ffc0d9 100%);
+    background: linear-gradient(135deg, hsl(320, 82%, 98%) 0%, hsl(336, 100%, 88%) 100%);
     padding: 3rem 1.5rem;
     text-align: center;
 }
@@ -444,13 +438,13 @@ header p{
 .newsletter h2{
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #fc2779;
+    color: hsl(337, 97%, 57%);
     font-weight: 700;
 }
 
 .newsletter p{
     margin-bottom: 2rem;
-    color: #666;
+    color: hsl(0, 0%, 40%);
     font-size: 1.1rem;
 }
 
@@ -467,14 +461,14 @@ header p{
     flex: 1;
     min-width: 250px;
     padding: 1rem 1.5rem;
-    border: 2px solid #fc2779;
+    border: 2px solid hsl(337, 97%, 57%);
     border-radius: 25px;
     font-size: 1rem;
     outline: none;
 }
 
 .newsletter-form button{
-    background: #fc2779;
+    background: hsl(337, 97%, 57%);
     color: white;
     border: none;
     padding: 1rem 3rem;
@@ -484,9 +478,8 @@ header p{
     cursor: pointer;
 }
 
-/* Footer */
 footer{
-    background-color: #2c2c2c;
+    background-color: hsl(0, 0%, 17%);
     color: white;
     padding: 3rem 2rem 1rem;
 }
@@ -502,31 +495,30 @@ footer{
 .footer-section h4{
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    color: #fc2779;
+    color: hsl(337, 97%, 57%);
     text-transform: uppercase;
 }
 
 .footer-section a{
     display: block;
     margin: 0.7rem 0;
-    color: #b0b0b0;
+    color: hsl(0, 0%, 69%);
     text-decoration: none;
     cursor: pointer;
 }
 
 .footer-section a:hover{
-    color: #fc2779;
+    color: hsl(337, 97%, 57%);
 }
 
 .copyright{
     text-align: center;
     padding-top: 2rem;
-    border-top: 1px solid #444;
-    color: #888;
+    border-top: 1px solid hsl(0, 0%, 27%);
+    color: hsl(0, 0%, 53%);
     font-size: 0.9rem;
 }
 
-/* Responsive */
 @media (max-width: 968px){
     .navbar{ padding: 1rem; }
 
@@ -541,7 +533,7 @@ footer{
         display: block;
         width: 25px;
         height: 3px;
-        background-color: #333;
+        background-color: hsl(0, 0%, 20%);
         margin: 5px 0;
         border-radius: 3px;
     }
@@ -569,7 +561,7 @@ footer{
     .dropdown-menu{
         position: static;
         box-shadow: none;
-        background-color: #f8f8f8;
+        background-color: hsl(0, 0%, 97%);
         margin-top: 0.5rem;
     }
 
